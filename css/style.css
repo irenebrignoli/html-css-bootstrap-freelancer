@@ -3,3 +3,47 @@
   --ms-dark-blue: #2c3e50;
   --ms-light-blue: #3a546d;
 }
+
+/* debug */
+
+.debug .ms-box-small{
+  background-color: pink;
+}
+
+/* COMMON */
+
+.ms-green-bg{
+  background-color: var(--ms-green);
+}
+
+.ms-dark-blue-bg{
+  background-color: var(--ms-dark-blue);
+}
+
+.ms-light-blue-bg{
+  background-color: var(--ms-light-blue);
+}
+
+.ms-green-text{
+  color: var(--ms-green);
+}
+
+.ms-dark-blue-text{
+  color: var(--ms-dark-blue);
+}
+
+.ms-light-blue-text{
+  color: var(--ms-light-blue);
+}
+
+/* UTILITIES */
+
+.ms-top-bar{
+  height: 5.625rem;
+}
+
+
+
+
+
+
