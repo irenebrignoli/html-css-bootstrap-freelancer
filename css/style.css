@@ -8,12 +8,14 @@
 
 .debug .col{
   background-color: pink;
+  border: 1px dashed black;
 }
 
 .debug section .col,
 .debug div[class*="col-"]{
   height: 200px;
   background-color: pink;
+  border: 1px dashed black;
 }
 
 /* COMMON */
