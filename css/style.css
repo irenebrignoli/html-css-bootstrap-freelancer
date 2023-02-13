@@ -6,8 +6,15 @@
 
 /* debug */
 
-.debug .ms-box-small{
+.debug .col,
+.debug div[class*="col-"] {
   background-color: pink;
+}
+
+.debug .ms-jumbotron-box{
+  background-color: orange;
+  height: 200px;
+  width: 200px;
 }
 
 /* COMMON */
