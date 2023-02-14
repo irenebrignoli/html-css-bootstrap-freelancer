@@ -20,33 +20,33 @@
 
 /* COMMON */
 
-.ms-green-bg{
+.ms_green_bg{
   background-color: var(--ms-green);
 }
 
-.ms-dark-blue-bg{
+.ms_dark_blue_bg{
   background-color: var(--ms-dark-blue);
 }
 
-.ms-light-blue-bg{
+.ms_light_blue_bg{
   background-color: var(--ms-light-blue);
 }
 
-.ms-green-text{
+.ms_green_text{
   color: var(--ms-green);
 }
 
-.ms-dark-blue-text{
+.ms_dark_blue_text{
   color: var(--ms-dark-blue);
 }
 
-.ms-light-blue-text{
+.ms_light_blue_text{
   color: var(--ms-light-blue);
 }
 
 /* UTILITIES */
 
-.ms-top-bar{
+header{
   height: 5.625rem;
 }
 
@@ -54,6 +54,16 @@ section{
   padding: 3rem 0;
 }
 
+
+
+
+@media screen and (min-width: 768px) {
+  
+  section{
+    padding: 5rem 0;
+  }
+
+}
 
 
 
