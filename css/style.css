@@ -54,6 +54,9 @@ section{
   padding: 3rem 0;
 }
 
+.ms_logo{
+  font-size: 1rem;
+}
 
 
 
@@ -61,6 +64,15 @@ section{
   
   section{
     padding: 5rem 0;
+  }
+
+  .ms_logo{
+    font-size: 1.3rem;
+  }
+
+  .ms_navlink{
+    font-size: 0.9rem;
+    font-weight: 500;
   }
 
 }
