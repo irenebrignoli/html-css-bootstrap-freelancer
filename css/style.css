@@ -4,6 +4,10 @@
   --ms-light-blue: #3a546d;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* debug */
 
 
@@ -45,10 +49,15 @@ main{
 
 section{
   padding: 2.5rem 0;
+  scroll-margin-top: 5.625rem;
 }
 
 .ms_logo{
   font-size: 1rem;
+}
+
+.ms_navlink a:hover{
+  text-decoration: underline;
 }
 
 .ms_font_medium{
@@ -90,6 +99,8 @@ textarea::placeholder {
   font-size: 0.8rem;
 }
 
+
+/* MEDIA QUERIES */
 
 
 @media screen and (min-width: 768px) {
