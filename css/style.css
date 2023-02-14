@@ -56,8 +56,8 @@ section{
 }
 
 .ms_jumbotron_img{
-  height: 200px;
-  width: 200px;
+  height: 12.5rem;
+  width: 12.5rem;
   margin: auto;
 }
 
@@ -70,12 +70,25 @@ h2{
   font-size: 1.5rem;
 }
 
+h3{
+  font-size: 1rem;
+}
+
 input::placeholder,
 textarea::placeholder {
   font-weight: 600;
   color:  var(--ms-dark-blue);
 }
 
+.ms_icon_circle{
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.ms_footer_bottom span{
+  font-size: 0.8rem;
+}
 
 
 
@@ -105,6 +118,10 @@ textarea::placeholder {
 
   h2{
     font-size: 2.5rem;
+  }
+
+  h3{
+    font-size: 1.3rem;
   }
 
 }
