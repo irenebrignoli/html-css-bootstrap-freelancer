@@ -50,12 +50,31 @@ header{
   height: 5.625rem;
 }
 
+main{
+  padding-top: 5.625rem;
+}
+
 section{
-  padding: 3rem 0;
+  padding: 2.5rem 0;
 }
 
 .ms_logo{
   font-size: 1rem;
+}
+
+.ms_font_medium{
+  font-weight: 600;
+}
+
+.ms_jumbotron_img{
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.ms_line{
+  height: 3px;
+  width: 4rem;
 }
 
 
@@ -75,7 +94,25 @@ section{
     font-weight: 500;
   }
 
+  .ms_line{
+    height: 3px;
+    width: 6rem;
+  }
+
+  #ms_jumbotron ul li{
+    font-size: 1.3rem;
+  }
+
 }
 
+
+@media screen and (min-width: 992px) {
+
+  .ms_line{
+    height: 4px;
+    width: 9rem;
+  }
+
+}
 
 
