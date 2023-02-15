@@ -40,12 +40,8 @@ html{
 
 /* UTILITIES */
 
-header{
-  height: 5.625rem;
-}
-
 main{
-  padding-top: 5.625rem;
+  padding-top: 4rem;
 }
 
 section{
