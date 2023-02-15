@@ -1,5 +1,6 @@
 :root{
   --ms-green: #1abc9c;
+  --ms-green-darker: #0b9c7f;
   --ms-dark-blue: #2c3e50;
   --ms-light-blue: #3a546d;
 }
@@ -56,10 +57,6 @@ section{
   font-size: 1rem;
 }
 
-.ms_navlink a:hover{
-  text-decoration: underline;
-}
-
 .ms_font_medium{
   font-weight: 600;
 }
@@ -97,6 +94,27 @@ textarea::placeholder {
 
 .ms_footer_bottom span{
   font-size: 0.8rem;
+}
+
+.ms_navlink a:hover{
+  text-decoration: underline;
+}
+
+.btn.ms_download:hover{
+  background-color: var(--ms-green-darker);
+}
+
+.btn.ms_submit:hover{
+  background-color: var(--ms-green-darker);
+}
+
+.ms_overlay{
+  display: none;
+}
+
+.ms_img_box:hover .ms_overlay{
+  cursor: pointer;
+  display: block;
 }
 
 
